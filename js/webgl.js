@@ -186,8 +186,8 @@
         ModelVertexIndexBuffer.numItems = ModelData.indices.length;
 
         //document.getElementById("loadingtext").textContent = "";
-        $("#model_info .vertices .value").html(addCommas(ModelData.indices.length));
-        $("#model_info .surfaces .value").html(addCommas(ModelData.vertexNormals.length));
+        $("#model_info .surfaces .value").html(addCommas(ModelData.indices.length));
+        $("#model_info .vertices .value").html(addCommas(ModelData.vertexNormals.length));
     }
 
 
