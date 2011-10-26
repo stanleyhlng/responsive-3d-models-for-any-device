@@ -208,6 +208,10 @@ text-transform: uppercase;
 display:block;
 }
 
+#facebook{
+margin: 20px auto;
+}
+
 #html5 {
 margin:5px;
 text-align: center;
@@ -302,6 +306,13 @@ color: #636363;
 font-family: helvetica,arial,sans-serif;
 font-weight: bold;
 font-size: 1.7em;
+}
+
+#title .title_6{
+position:absolute;
+left:-50px;
+top:250px;
+width:120px;
 }
 
 #model_info div{

@@ -20,7 +20,7 @@ and (min-width : 321px) {
 /* Styles */
 
 #devices .mobile_landscape{
-display:block;
+display:none;
 }
 
 #devices .mobile_portrait{

@@ -24,6 +24,14 @@
 	<![endif]-->	
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=278544008845171";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div id="page">
 
 <header class="fixedElement">
@@ -51,7 +59,7 @@
 		<h3>You can keep in touch with me</h3>
 		<a href="http://www.flickr.com/photos/stanleyhlng/" target="_blank"><img class="icon" src="img/flickr_32.png" alt="Flickr" title="Flickr"></a>
 		<a href="http://twitter.com/stanleyhlng" target="_blank"><img class="icon" src="img/twitter_32.png" alt="Twitter" title="Twitter"></a>	
-		<a href="http://www.quora.com/Stanley-Ng" target="_blank"><img class="icon" src="img/quora_32.png" alt="Quora" title="Quora"</a>
+		<a href="http://www.quora.com/Stanley-Ng" target="_blank"><img class="icon" src="img/quora_32.png" alt="Quora" title="Quora"</a>	
 	</div>
 	<div id="browser_support">
 		<h3>It's best view with</h3>
@@ -67,10 +75,10 @@
 			<li class="device desktop_wide">desktop (wide)</li>
 			<li class="device desktop_normal">desktop (normal)</li>
 			<li class="device desktop_narrow">desktop (narrow)</li>
-			<li class="device tablet_landscape">ipad (landscape)</li>
-			<li class="device tablet_portrait">ipad (portrait)</li>
-			<li class="device mobile_landscape">iphone (landscape)</li>
-			<li class="device mobile_portrait">iphone (portrait)</li>
+			<li class="device tablet_landscape">tablet (landscape)</li>
+			<li class="device tablet_portrait">tablet (portrait)</li>
+			<li class="device mobile_landscape">mobile (landscape)</li>
+			<li class="device mobile_portrait">mobile (portrait)</li>
 		</ul>
 	</div>
 	<div id="html5">
@@ -317,9 +325,13 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 	<ul>
 	</ul>
 </section>
-
-<section id="coptyright">
+		
+<section id="copyright">
 <h6>Copyright &copy; 2011 Stanley Ng. All rights reserved.</h6>
+</section>
+
+<section id="facebook">
+<div class="fb-like" data-href="http://hacks.stanleyhlng.com/media_queries/responsive-3d-models-for-any-device/" data-send="false" datalayout="button_count" data-width="90" data-show-faces="false"></div>
 </section>
 
 </footer>
